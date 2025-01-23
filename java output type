@@ -1,0 +1,15 @@
+public class Main{
+    public static void main(String [] args)
+    {
+        // output
+        
+       System.out.print("Message");
+       System.out.println("Message");
+       System.out.print("Message");
+       
+       // and if you want to change the line in middle of the string then you can use these differnt metthod
+        System.out.print("Code, Compile, Run and Debug java program online.\n your code in this editor and press Run button to execute it.");//[ \n]
+    }
+}
+
+// to print in next line in java we should write { println}
