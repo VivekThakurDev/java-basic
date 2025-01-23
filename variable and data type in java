@@ -1,0 +1,30 @@
+//   variable in java
+
+// ther e are two main topic in progarming in variable 
+// [ constant( 23,1,2,3,4 ) and variable]
+//  constant means numbirical value 
+//  variable means  that value is unknown (x,y,)
+
+
+// in java there are two type of data type
+//   Primitive { byte, short,char, boolean , int, long . float, double}  already stored in data ,
+//  it is  basic data type that we use in it
+//  byte = 1 byte
+//  char= 2byte
+//  boolean =1byte
+//  int = 4 byte 
+//  long= 8 byte
+//  float = 8 byte   
+ 
+ 
+// //   Non Primitive{ string ,Array, class, object, interface}
+//  coutomizeable ,  as a developer we can also develop it
+
+public class Main{
+    public  static void main(String args []){
+        int a=10;
+         int b= 15;
+         int c =b+a;
+        System.out.print(c);
+    }
+}
