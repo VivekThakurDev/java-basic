@@ -1,0 +1,27 @@
+  //==============================INPUT====================================================
+//   for  taking input in java we  have to import  the { import java.util.*}
+  
+ /**    syntax of input
+  * declear it like this 
+   Scanner variable name  = new Scanner (System.in);
+   String name=sc. nextLine();
+   
+   */
+
+
+   
+   //         Code 
+
+
+   
+   import java.util.*;
+     public class Main{
+         public static void main( String args[]){
+             Scanner sc = new Scanner(System.in);
+             String name = sc.next();
+             //nextLine(){ to { to that the input more than one token}}
+             //nextInt(){ tske the input of Integer
+              //nextChar(){ tske the input of Character
+             System.out.print(name);
+         }
+     }
