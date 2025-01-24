@@ -1,0 +1,32 @@
+// compare the code  between two number A, B
+import java. util.*;
+public class Main{
+    public static void main (String args[]){
+        Scanner c = new Scanner(System.in);
+        int a = c.nextInt();
+        
+           Scanner d = new Scanner(System.in);
+        int b = d.nextInt();
+        
+        if(a>b ){
+            System.out.println("a  ka number bada hai b  se");
+        }
+        else if(a <b){
+            System .out.println("b ka number chota hai a se");
+        }
+        else 
+        System . out. println(" both are equal");
+    }
+}
+
+/** syntax
+ * stt1
+ * stt2
+ * if(condition1)
+ * stt3
+ *  * if else(condition1)
+ * stt4
+ * else{
+     stt5
+     stt6
+ } **/
