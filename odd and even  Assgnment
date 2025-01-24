@@ -1,0 +1,27 @@
+// check odd and even 
+ import java.util.*;
+ public class Main{
+     public static void main ( String args[]){
+        Scanner nm = new Scanner(System.in);
+        int num = nm.nextInt();
+       int n = num/2;
+        if (n==1){
+            System.out.println("number is Odd");
+        } 
+        else{
+        System.out.println(" number is even");    
+        }
+        
+     }
+ }
+
+/** syntax
+ * stt1
+ * stt2
+ * if(condition1)
+ * stt3
+ * stt4
+ * else{
+     stt5
+     stt6
+ } **/
