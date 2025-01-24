@@ -1,0 +1,37 @@
+// Example of switch conditional ststement 
+
+ import java.util.*;
+ 
+  public class Main{
+      public static void main( String  args[]){
+        Scanner sc= new Scanner(System.in);
+        int Button = sc.nextInt();
+       
+         switch(Button){
+            case 1:
+                 System.out.println("you get first position ");
+                 break;
+            case 2:
+                System.out.println("you get second position ");
+                break;
+            case 3:
+                  System.out.println("you get  third position ");
+                  break;
+            case 4:
+                System.out.println("you get fourth position ");
+                break;
+             
+            default:System.out.println(" invalid");
+         }
+      }
+  }
+/** syntax
+  Switch (variable){
+     Case 1: stt1;
+          break:
+    Case 2 : stt2;
+          break:
+    Case 3 : stt3;
+          braek:
+     default
+ } **/
