@@ -1,0 +1,12 @@
+// for loop 
+// syntaxx 
+/*  for (initialisation; condition;updation){
+      do somethingh
+  } */
+ public class Main {
+     public static void main ( String args[]){
+         for (int n= 0; n < 11; n++){
+             System.out.println(n);
+         }
+     }
+ }
