@@ -1,0 +1,16 @@
+// sum of n Number
+import java.util.*;
+  public class Main {
+      public static void main( String args[]){
+          Scanner sc= new Scanner(System.in);
+          int size =sc.nextInt();
+           int n=0;
+          for (int i=0; i<=size ;i++){
+         
+               n= n+i;
+              System.out.println( "sum of "+i+ ("= " )+n);
+          }
+         System.out.print("total sum of number = "+ n);
+      }
+  }
+  // it  give the pass then it check the condition
