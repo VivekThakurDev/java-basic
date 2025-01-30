@@ -1,0 +1,9 @@
+public  class Main{
+   static void welcome(){
+    System.out .println("welcome to my world ");
+ }
+    public static void main(String args[]){
+        welcome();
+    }
+}
+  
