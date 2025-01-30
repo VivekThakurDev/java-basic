@@ -1,0 +1,15 @@
+class Person{
+    int Rollno;
+    String StudentName;
+}
+
+public class Main{
+    public  static  void main(String args[]){
+    
+     Person obj1 = new Person();
+     obj1.Rollno =1;
+     obj1.StudentName ="Prince";
+     System.out.println(obj1.Rollno);
+     System.out.println( obj1.StudentName);
+}
+}
